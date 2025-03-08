@@ -1,0 +1,14 @@
+package com.api.cardcost.entities.dtos;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class ClearingCostDto {
+
+    private String countryCode;
+    private Double cost;
+}
